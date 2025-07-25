@@ -1,10 +1,10 @@
 # der_ring
-Audio game
+Game based on 'Der Ring des Nibelungen'
 
 # Installation
 
-* Install the `wasm-server-runner` tool : `cargo install wasm-server-runner`
+* Install WASM target : `rustup target add wasm32-unknown-unknown`
+* Install Trunk : `cargo install --locked trunk`
 
 # Run
-
-    cargo run --target wasm32-unknown-unknown
+    trunk serve
